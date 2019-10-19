@@ -1,2 +1,3 @@
-# infinite-reach
-#spaceapps
+# FROM CURIOUS MINDS COME HELPING HANDS
+
+NASA space apps challenge 2019
