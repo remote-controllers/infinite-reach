@@ -1,0 +1,23 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#map {
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
