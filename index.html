@@ -6,31 +6,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
         <title>Infinite Reach</title>
-        <meta name="description" content="Organicer 2020 – Smart planner with a greater value."/>
-        <!-- <link rel="stylesheet" type="text/css" href="./css/reset.css" /> -->
+        <meta name="description" content="A platform for people curious about our planet and the changeable living conditions on it who might also like to get involved in helping those in need." />
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,600,700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
     </head>
-    <body class="en-US">
+    <body>
         <div class="site">
             <header>
-                <h1>Infinite reach</h1>
+                <div class="logo-container">
+                    <img id="logo" src="./assets/images/logo.png" />
+                </div>
+                <div class="tagline-container">
+                    <h3>What do care about?</h3>
+                    <h3>What can you do about it?</h3>
+                    <h3>How can you change the world?</h3>
+                    <div class="sign-in-buttons">
+                        <span>Sign In</span>
+                        <span>Register</span>
+                    </div>
+                </div>
             </header>
             <main>
-                <h2>FROM CURIOUS MINDS COME HELPING HANDS</h2>
-                <p>
-                    What's going on in the world?
-                </p>
+                <nav>
+                    <ul>
+                        <li> LOCATION </li>
+                        <li> ENVIRONMENTAL HAZARDS </li>
+                        <li> VULNERABLE POPULATIONS </li>
+                    </ul>
+                </nav>
                 <section>
                     <div id="map"></div>
-                    <div class="legend"></div>
+                    <div class="focus">
+                        <span>Show Details</span>
+                    </div>
                 </section>
             </main>
             <footer>
                 <p id="footer">&copy; Remote Controllers / NASA Space Apps Challenge&nbsp;</p>
             </footer>
         </div>
-        <script type="text/javascript" src="./js/script.js"></script>
-        <!-- <script type="text/javascript" src="./js/app.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDypWqdy9OarSrQbwbI1Ai5HBI-seks-xQ&callback=initMap"></script>
     </body>
 </html>
