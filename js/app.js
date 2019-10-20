@@ -36,33 +36,3 @@ function getCircle(magnitude) {
     strokeWeight: .5
   };
 }
-
-function eqfeed_callback(results) {
-  map.data.addGeoJson(results);
-}
-
-// setInterval(drawDots(), 1000);
-// setInterval(drawDots(), 1000);
-// let timerId = setInterval(() => console.log('tick'), 2000);
-
-var intervalFunction = setInterval(function(){
-    drawDots();
-}, 2000);
-
-intervalFunction;
-
-function drawDots() {
-    x = document.querySelectorAll("img");
-    // console.log(x);
-    // console.log(x.length);
-    if (x.length > 50) {
-        clearInterval(intervalFunction);
-        console.log(x);
-        // zoomIn();
-    }
-}
-
-// var script = document.createElement('script');
-// script.type = 'text/javascript';
-// script.src = './js/focus.js';
-// document.getElementsByTagName('body')[0].appendChild(script);
