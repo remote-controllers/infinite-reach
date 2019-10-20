@@ -8,8 +8,8 @@ footer.innerHTML += year;
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 2,
-    center: {lat: -0.146538, lng: 10.093924},
+    zoom: 6,
+    center: {lat: 6.576991, lng: 30.500307},
     mapTypeId: 'satellite',
   });
 
