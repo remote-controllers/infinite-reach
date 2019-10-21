@@ -1,7 +1,6 @@
 var date = new Date();
 var footer = document.getElementById('footer');
 var year = date.getFullYear();
-var x;
 
 footer.innerHTML += year;
 
@@ -35,4 +34,8 @@ function getCircle(magnitude) {
     strokeColor: 'white',
     strokeWeight: .5
   };
+}
+
+function eqfeed_callback(results) {
+  map.data.addGeoJson(results);
 }

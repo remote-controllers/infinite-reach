@@ -1,7 +1,6 @@
 var date = new Date();
 var footer = document.getElementById('footer');
 var year = date.getFullYear();
-var x;
 
 footer.innerHTML += year;
 

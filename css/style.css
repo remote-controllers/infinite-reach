@@ -114,6 +114,9 @@ section {
     height: 90vh;
     width: 100%;
 }
+.map {
+    width: 100%;
+}
 
 .focus {
     border-radius: 5px;
@@ -134,7 +137,7 @@ section {
     padding: 0.25em;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-47%, -50%);
 }
 .focus:hover span {
     display: block;
